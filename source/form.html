@@ -33,8 +33,16 @@
     </nav>
   </header>
   <main class="main">
-    <form action="https://echo.htmlacademy.ru" class="form">
-
+    <h1 class="title">Подбор программы</h1>
+    <h2 class="heading">Заполните анкету, и мы подберем
+      программу питания для вашего кота</h2>
+    <form class="form" action="https://echo.htmlacademy.ru" method="post">
+      <label for="name">Имя:*</label>
+      <input type="text" name="name" id="name">
+      <label for="weight">Вес (кг):*</label>
+      <input type="number" name="weight" id="weight">
+      <label for="age">Возраст (лет)</label>
+      <input type="number" name="age" id="age">
     </form>
     <section class="contacts">
       <div class="container">
