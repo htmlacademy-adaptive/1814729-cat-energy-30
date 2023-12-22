@@ -40,7 +40,10 @@
           <li class="catalog__item product">
             <div class="product__wrapper">
               <a href="#" class="product__link">
-                <img src="#" alt="" class="product__image">
+                <picture>
+                  <source width="161" height="172" type="image/png" media="(min-width: 768px)" srcset="images/catalog-1-desktop@1x.png 1x, images/catalog-1-desktop@2x.png 2x">
+                  <img class="product__image" src="images/catalog-1-mobile@1x.png" srcset="images/catalog-1-mobile@2x.png 2x" width="68" height="86" alt="Кот до похудения.">
+                </picture>
                 <h3 class="product__heading">Cat Energy PRO 500 г</h3>
               </a>
               <dl class="product__info">
