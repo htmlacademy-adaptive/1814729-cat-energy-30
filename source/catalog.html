@@ -40,7 +40,10 @@
           <li class="catalog__item product">
             <div class="product__wrapper">
               <a href="#" class="product__link">
-                <img src="#" alt="" class="product__image">
+                <picture>
+                  <source width="161" height="172" type="image/png" media="(min-width: 768px)" srcset="images/catalog-1-desktop@1x.png 1x, images/catalog-1-desktop@2x.png 2x">
+                  <img class="product__image" src="images/catalog-1-mobile@1x.png" srcset="images/catalog-1-mobile@2x.png 2x" width="68" height="86" alt="Кот до похудения.">
+                </picture>
                 <h3 class="product__heading">Cat Energy PRO 500 г</h3>
               </a>
               <dl class="product__info">
@@ -58,13 +61,13 @@
                 </div>
               </dl>
             </div>
-            <a href="form.html" class="product__button">Заказать</a>
+            <a class="product__button" href="form.html">Заказать</a>
           </li>
-          <li class="product__plus">
-            <svg class="product__decor"></svg>
-            <h3 class="product__heading">Показать еще 100500 товаров</h3>
-            <p class="product__text">На самом деле вкусов гораздо больше!</p>
-            <a href="" class="product__button-all">показать все</a>
+          <li class="catalog__plus">
+            <svg class="catalog__plus-decor"></svg>
+            <h3 class="catalog__plus-heading">Показать еще 100500 товаров</h3>
+            <p class="catalog__plus-text">На самом деле вкусов гораздо больше!</p>
+            <a class="catalog__plus-button-all" href="#">показать все</a>
           </li>
         </ul>
         <ul class="catalog__additional-list additional">
