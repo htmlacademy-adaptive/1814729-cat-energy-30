@@ -1,0 +1,15 @@
+.hero {
+  background-color: $apple;
+}
+
+.hero__title {
+  color: $color-default-white;
+}
+
+.hero__subtitle {
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: $color-default-white;
+  text-transform: uppercase;
+}

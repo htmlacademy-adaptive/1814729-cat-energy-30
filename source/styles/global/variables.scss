@@ -1,3 +1,10 @@
 /* здесь используйте глобальные переменные */
-$apple: #68B738;
-$lighten-apple: lighten($apple, 30%);
+$apple:                 #68B738;
+$lighten-apple:           lighten($apple, 30%);
+$color-default-black:   #000000;
+$color-default-white:   #ffffff;
+$color-transparent:     rgba(255, 255, 255, 0);
+$charcoal:              #444444;
+$gainsboro:             #d9d9d9;
+$white-smoke:           #f2f2f2;
+$nero:#222222;

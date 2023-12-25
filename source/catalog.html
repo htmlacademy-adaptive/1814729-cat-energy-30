@@ -3,8 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Название проекта</title>
+  <title>Cat Energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="favicon.ico"><!-- 32×32 -->
+  <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicons/apple.png"> <!-- 180×180 -->
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles/styles.css">
   <script src="scripts/index.js" defer></script>
 </head>
@@ -33,9 +37,9 @@
     </nav>
   </header>
   <main class="main">
-    <h1 class="title">Каталог продукции</h1>
     <section class="catalog">
       <div class="container">
+        <h1 class="catalog__title h1">Каталог продукции</h1>
         <ul class="catalog__list">
           <li class="catalog__item product">
             <div class="product__wrapper">
@@ -44,7 +48,7 @@
                   <source width="161" height="172" type="image/png" media="(min-width: 768px)" srcset="images/catalog-1-desktop@1x.png 1x, images/catalog-1-desktop@2x.png 2x">
                   <img class="product__image" src="images/catalog-1-mobile@1x.png" srcset="images/catalog-1-mobile@2x.png 2x" width="68" height="86" alt="Кот до похудения.">
                 </picture>
-                <h3 class="product__heading">Cat Energy PRO 500 г</h3>
+                <h3 class="product__title h3">Cat Energy PRO 500 г</h3>
               </a>
               <dl class="product__info">
                 <div class="product__item">
@@ -61,31 +65,36 @@
                 </div>
               </dl>
             </div>
-            <a class="product__button" href="form.html">Заказать</a>
+            <a class="product__button button" href="form.html">Заказать</a>
           </li>
           <li class="catalog__plus">
             <svg class="catalog__plus-decor"></svg>
-            <h3 class="catalog__plus-heading">Показать еще 100500 товаров</h3>
+            <h3 class="catalog__plus-title h3">Показать еще 100500 товаров</h3>
             <p class="catalog__plus-text">На самом деле вкусов гораздо больше!</p>
-            <a class="catalog__plus-button-all" href="#">показать все</a>
-          </li>
-        </ul>
-        <ul class="catalog__additional-list additional">
-          <li class="additional__item product product--additional">
-            <h3 class="product__heading">Сахарозаменитель</h3>
-            <dl class="product__info">
-              <div class="product__item">
-                <dt class="visually-hidden">Масса</dt>
-                <dd class="product__description">1 упаковка (100 г)</dd>
-              </div>
-              <div class="product__item">
-                <dt class="visually-hidden">Цена</dt>
-                <dd class="product__description">200 ₽</dd>
-              </div>
-            </dl>
+            <a class="catalog__plus-button-all button button--second" href="#">показать все</a>
           </li>
         </ul>
       </div>
+      <section class="additional">
+        <div class="container">
+          <h2 class="additional__title">Дополнительные товары</h2>
+          <ul class="additional__list ">
+            <li class="additional__item product product--additional">
+              <h3 class="product__title">Сахарозаменитель</h3>
+              <dl class="product__info">
+                <div class="product__item">
+                  <dt class="visually-hidden">Масса</dt>
+                  <dd class="product__description">1 упаковка (100 г)</dd>
+                </div>
+                <div class="product__item">
+                  <dt class="visually-hidden">Цена</dt>
+                  <dd class="product__description">200 ₽</dd>
+                </div>
+              </dl>
+            </li>
+          </ul>
+        </div>
+      </section>
       <div class="catalog__promo promo">
         <h2 class="visually-hidden">Акция</h2>
         <img src="#" alt="" class="promo__icon">

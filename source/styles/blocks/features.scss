@@ -1,0 +1,14 @@
+.features__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.features__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.features__content {
+  margin-top: 0;
+  margin-bottom: 0;
+}

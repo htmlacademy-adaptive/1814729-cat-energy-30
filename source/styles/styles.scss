@@ -4,6 +4,7 @@
 @import "./global/fonts.scss";
 @import "./global/common.scss";
 @import "./global/visually-hidden.scss";
+@import "./global/typography.scss";
 
 /* BLOCKS */
 
@@ -16,3 +17,8 @@
 @import "./blocks/example.scss";
 @import "./blocks/contacts.scss";
 @import "./blocks/footer.scss";
+@import "./blocks/button.scss";
+@import "./blocks/copyright.scss";
+@import "./blocks/catalog.scss";
+@import "./blocks/product.scss";
+@import "./blocks/additional.scss";
