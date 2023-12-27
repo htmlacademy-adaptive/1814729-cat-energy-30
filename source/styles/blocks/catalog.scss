@@ -1,0 +1,17 @@
+.catalog__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.catalog__title {
+  color: $color-default-black;
+}
+
+.catalog__plus-text {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: $charcoal;
+}

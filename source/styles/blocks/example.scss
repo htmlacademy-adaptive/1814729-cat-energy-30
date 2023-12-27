@@ -1,0 +1,32 @@
+.example__value {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: $color-default-black;
+  text-transform: uppercase;
+
+  &--another {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: none;
+  }
+}
+
+.example__description {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: $charcoal;
+  margin: 0;
+
+  &--another {
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+}
